@@ -1,0 +1,65 @@
+section.container-products {
+  margin-top: clamp(150px, 50px, 600px);
+  margin-bottom: clamp(150px, 50px, 600px);
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  width: auto;
+  grid-gap: 30px;
+  padding: 5rem 10%;
+}
+
+section.container-products div.products,
+section.container-products div.users {
+  border-radius: 5rem;
+  text-align: center;
+  font-size: 10px;
+  background-color: #c0fcf8;
+}
+
+section div.title-product, section div.title-user {
+  border-radius: 5rem;
+  background-color: #6dfacd;
+  width: auto;
+  font-weight: bolder;
+  padding: 2% 0;
+  font-size: 20px;
+  color: #000;
+  cursor: pointer;
+}
+
+section p {
+  margin: 3rem 20%;
+  font-size: 2rem;
+  color: #000;
+}
+
+section h1 {
+  background-color: #fff;
+  display: inline-block;
+  padding: 2rem;
+  margin: auto;
+  width: auto;
+  margin: 3rem;
+  border-radius: 2rem;
+  color: #d18cd5;
+}
+
+section h1:hover {
+  background-color: #ff90b9;
+  color: #fff;
+  cursor: pointer;
+}
+
+section.container-reviews {
+  margin-bottom: clamp(150px, 50px, 600px);
+  display: -ms-grid;
+  display: grid;
+  text-align: center;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  padding: 5rem;
+}
+/*# sourceMappingURL=main.css.map */
